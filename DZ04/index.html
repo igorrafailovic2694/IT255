@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>IT225-DZ04</title>
+
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+
+    <header>
+      <img id="logo" src="book_logo.png" alt="Book Logo">
+      <h1>Welcome to some bookstore</h1>
+
+      <form id="login_form" action="index.html" method="post">
+        <input type="text" name="username" placeholder="Username"><br>
+        <input type="password" name="password" placeholder="Password">
+
+        <input id="submit_button" type="submit" name="submit" value="Submit">
+      </form>
+    </header>
+
+    <div id="news_board">
+      This is where all of the important news is displayed<br>
+      Seriously, if it is not displayed here don't even bother<br>
+      looking at the other links like Information or Contact<br>
+      because they don't even work<br>
+      The only link that works is the "Home" link but it takes you<br>
+      to this very page so what's the point of clicking on it?
+    </div>
+
+    <input id="hide_show_news" type="button" value="Hide News" onclick="hideShowNews()">
+
+    <ul id="navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="">Information</a></li>
+      <li><a href="">Team</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+
+    <aside>
+      <h3>Categories</h3>
+      <ul>
+        <li><a class="Category" href="">Comedy</a></li>
+        <li><a class="Category" href="">Crime</a></li>
+        <li><a class="Category" href="">Drama</a></li>
+        <li><a class="Category" href="">Fable</a></li>
+        <li><a class="Category" href="">Fairy Tale</a></li>
+        <li><a class="Category" href="">Fantasy</a></li>
+        <li><a class="Category" href="">Historical Fiction</a></li>
+        <li><a class="Category" href="">Horror</a></li>
+        <li><a class="Category" href="">Humor</a></li>
+        <li><a class="Category" href="">Magical Realism</a></li>
+        <li><a class="Category" href="">Mystery</a></li>
+        <li><a class="Category" href="">Mythology</a></li>
+        <li><a class="Category" href="">Romance</a></li>
+        <li><a class="Category" href="">Science Fiction</a></li>
+        <li><a class="Category" href="">Western</a></li>
+      </ul>
+    </aside>
+
+    <footer>
+      <span id="bookstore_explained">Bookstore explained <a href="https://simple.wikipedia.org/wiki/Bookstore">here</a></span>
+      <span id="credits">Igor Rafailovic 2694</span>
+    </footer>
+
+    <script src="showHideNewsButton.js"></script>
+
+  </body>
+</html>
