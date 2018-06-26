@@ -1,0 +1,13 @@
+body{
+  background-color: #3fd5ff;
+  color: white;
+}
+
+#hotel_info{
+  color: black;
+}
+
+#hotel_info span{
+  font-weight: bold;
+  font-size: 14pt;
+}
